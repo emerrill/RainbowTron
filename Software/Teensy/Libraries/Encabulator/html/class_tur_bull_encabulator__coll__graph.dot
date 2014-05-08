@@ -1,0 +1,30 @@
+digraph "TurBullEncabulator"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="TurBullEncabulator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stripBankA" ,fontname="Helvetica"];
+  Node2 [label="RGB4XStripA",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_r_g_b4_x_strip_a.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="RGB4XStrip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_r_g_b4_x_strip.html"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="LumiGeekShield",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_lumi_geek_shield.html"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" accelerometer" ,fontname="Helvetica"];
+  Node5 [label="XYZHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_x_y_z_helper.html"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stripBankB" ,fontname="Helvetica"];
+  Node6 [label="RGB4XStripB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_r_g_b4_x_strip_b.html"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" temperature" ,fontname="Helvetica"];
+  Node7 [label="TemperatureHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_temperature_helper.html"];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dac" ,fontname="Helvetica"];
+  Node8 [label="DACHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_d_a_c_helper.html"];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" eeprom" ,fontname="Helvetica"];
+  Node9 [label="EEPROMHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_e_p_r_o_m_helper.html"];
+  Node10 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" addressable" ,fontname="Helvetica"];
+  Node10 [label="Addr1XMultiTool",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_addr1_x_multi_tool.html"];
+  Node4 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dmx" ,fontname="Helvetica"];
+  Node11 [label="DMX1XUniverse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_d_m_x1_x_universe.html"];
+  Node4 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

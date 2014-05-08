@@ -1,0 +1,26 @@
+var _encabulator_defines_8h =
+[
+    [ "DAC", "_encabulator_defines_8h.html#a4aa2a4ab86ce00c23035e5cee2e7fc7e", null ],
+    [ "EEPROM", "_encabulator_defines_8h.html#a3f5ebf97c07a164113b82053ed2b5ebe", null ],
+    [ "LG_ADDR_1X", "_encabulator_defines_8h.html#a1abf8ed93d0a685717bca7809d301dde", null ],
+    [ "LG_ADDR_1X_CMD_AUTOSHIFT_BUFFER", "_encabulator_defines_8h.html#acd4844828810089d521183c59503c247", null ],
+    [ "LG_ADDR_1X_CMD_COMET_CHASE", "_encabulator_defines_8h.html#a7a405e09c40eb917d213b0508ec64ecb", null ],
+    [ "LG_ADDR_1X_CMD_FRAME", "_encabulator_defines_8h.html#a20d7f32cff786bc08c7c690121526cd8", null ],
+    [ "LG_ADDR_1X_CMD_GRADIENT", "_encabulator_defines_8h.html#a2fb12a3c8bfc1dd8b4256424803f5d22", null ],
+    [ "LG_ADDR_1X_CMD_SET_STRIP_MODE", "_encabulator_defines_8h.html#a43c7a79f4a6680bc97d77d671c9c704b", null ],
+    [ "LG_ADDR_1X_CMD_SHIFT_BUFFER_ONCE", "_encabulator_defines_8h.html#a7bf01d2ae168056bbd52d4eb137cda8f", null ],
+    [ "LG_DMX_1X", "_encabulator_defines_8h.html#ac8c87bb4cb633be6ec0587b4e1cafcc8", null ],
+    [ "LG_DMX_1X_CMD_SET_BYTES_FROM_ADDR", "_encabulator_defines_8h.html#a6fef961d4a958c95462a821c2a19c0bb", null ],
+    [ "LG_DMX_1X_CMD_SET_ENTIRE_UNIVERSE", "_encabulator_defines_8h.html#ac4b7aaa0b03e3fa9d5eaec28aa7b91aa", null ],
+    [ "LG_GLOBAL_CMD_BLACKOUT", "_encabulator_defines_8h.html#af1fbee746f27af2c5fd9e49c400e9af4", null ],
+    [ "LG_GLOBAL_CMD_TEST_PATTERN", "_encabulator_defines_8h.html#afe66e0201a1a9fe5dd936338d68504d2", null ],
+    [ "LG_RGB_4X_A", "_encabulator_defines_8h.html#aff295912448a376ec141f6773c63e482", null ],
+    [ "LG_RGB_4X_B", "_encabulator_defines_8h.html#ab6a434e4dd6e71bc0d5add2b85f41764", null ],
+    [ "LG_RGB_4X_CMD_AUTO_FADE", "_encabulator_defines_8h.html#aad985edab08f743264a9e006f395718d", null ],
+    [ "LG_RGB_4X_CMD_AUTO_JUMP", "_encabulator_defines_8h.html#a872df0dab0fdd11b0df1a608801725fc", null ],
+    [ "LG_RGB_4X_CMD_AUTO_RANDOM", "_encabulator_defines_8h.html#a23d6cc958716c5f899e4c91f3c96f5f2", null ],
+    [ "LG_RGB_4X_CMD_FADE_TO", "_encabulator_defines_8h.html#abdcd956d4570b3f903c4eb395eda9f09", null ],
+    [ "LG_RGB_4X_CMD_JUMP_TO", "_encabulator_defines_8h.html#a51b3b56dad27e1e9cb7997938cb0a3ea", null ],
+    [ "TEMPSENSOR", "_encabulator_defines_8h.html#a80b17370821b4db418acac69eaa333fe", null ],
+    [ "XYZ", "_encabulator_defines_8h.html#ae3a91f326d0a4d7990b34dfd256b2393", null ]
+];

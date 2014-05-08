@@ -1,0 +1,16 @@
+digraph "LumiGeekShield"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="LumiGeekShield",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Addr1XMultiTool",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_addr1_x_multi_tool.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DMX1XUniverse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_d_m_x1_x_universe.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="RGB4XStrip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_r_g_b4_x_strip.html"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="RGB4XStripA",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_r_g_b4_x_strip_a.html"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="RGB4XStripB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_r_g_b4_x_strip_b.html"];
+}
